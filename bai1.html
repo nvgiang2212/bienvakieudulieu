@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tttttt</title>
+</head>
+<body>
+	<script>
+		// Khai bao bien
+		let vatly = prompt("Nhap diem Vat Ly:");
+		let hoahoc = prompt("Nhap diem Hoa Hoc:");
+		let sinhhoc = prompt("Nhap diem Sinh Hoc:");
+		let diemtb;
+		let tong;
+
+		// Chuyển đổi kiểu chuỗi sang kiểu số
+		vatly = parseInt(vatly);
+		hoahoc = parseInt(hoahoc);
+		sinhhoc = parseInt(sinhhoc);
+
+		// Diem trung binh va tong
+		diemtb = (vatly + hoahoc + sinhhoc)/3;
+		tong = vatly + hoahoc + sinhhoc;
+		alert("Diem trung binh: " + diemtb);
+		alert("Tong: " + tong);
+
+	</script>
+</body>
+</html>
